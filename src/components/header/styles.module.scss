@@ -1,0 +1,24 @@
+.headerContainer {
+  background-color: #f13;
+  height: 50px;
+
+  color: #fff;
+
+  padding: 10px 24px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    &:last-child {
+      padding-left: 10px;
+      border-left: 1px solid #fff;
+    }
+  }
+}
